@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tip Calculator | Merix_</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+
+    <video src="background.mp4" autoplay muted loop id="bg"></video>
+
+    <div class="container">
+        <h2>Tip Calculator</h2>
+        <label>Price</label>
+        <input id="price" type="number" placeholder="Price"/>
+        <br/>
+        <label>Tip</label>
+        <input id="tip" type="number" placeholder="Your Tip"/>
+        <br>
+        <div id="resultContainer"></div>
+        <br>
+        <button id="resetButton" onclick="resetValues()">Reset</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
